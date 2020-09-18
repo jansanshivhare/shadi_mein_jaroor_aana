@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact"
 import Service from "./Pages/Service"
 import Error404 from "./Pages/Error404"
 import Navbar from "./Components/Navbar"
+import About from "./Pages/About"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
         <Switch>
             <Route exact path = "/" component={Home} />
+            <Route exact path = "/about" component={About} />
             <Route exact path = "/contact" component={Contact} />
             <Route exact path = "/service" component={Service} />
             <Route exact path = "/error404" component={Error404} />
