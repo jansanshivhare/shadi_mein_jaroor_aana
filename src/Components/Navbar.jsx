@@ -6,7 +6,7 @@ const Navbar = () => {
     return(
         <>
 
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-10 mx-auto">
                   <nav className="navbar navbar-expand-lg navbar-light bg-light">

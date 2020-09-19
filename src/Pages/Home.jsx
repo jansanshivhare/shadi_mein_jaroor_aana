@@ -1,17 +1,16 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Home_service from "../Components/Home_service"
 
-
-const Home = () =>{
+const Home = () => {
     return (
         <>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-10 mx-auto">
-                        <h1 >Welcome home Page</h1>
-                    </div>
-                </div>
-            </div>
+           <div className="container">
+               <div className="row">
+                   <div className="col-10 mx-auto">
+                       <Home_service />
+                   </div>
+               </div>
+           </div>
         </>
     );
 };

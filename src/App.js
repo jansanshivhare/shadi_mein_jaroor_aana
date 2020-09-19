@@ -9,6 +9,7 @@ import Service from "./Pages/Service"
 import Error404 from "./Pages/Error404"
 import Navbar from "./Components/Navbar"
 import About from "./Pages/About"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             <Route exact path = "/error404" component={Error404} />
             <Redirect to = "/Error404" />
         </Switch>
-      
+      <Footer />
     </>
   )
 }
