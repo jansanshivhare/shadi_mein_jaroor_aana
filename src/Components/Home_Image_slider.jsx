@@ -1,64 +1,81 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 const HomeImageSlider = () => {
   return (
     <>
-      <div id='demo' className='carousel slide' data-ride='carousel'>
-        <ul className='carousel-indicators'>
-          <li data-target='#demo' data-slide-to='0' className='active'></li>
-          <li data-target='#demo' data-slide-to='1'></li>
-          <li data-target='#demo' data-slide-to='2'></li>
-        </ul>
+      <div
+        id='carouselExampleIndicators'
+        className='carousel slide w-75 mx-auto'
+        data-ride='carousel'
+      >
+        <ol className='carousel-indicators'>
+          <li
+            data-target='#carouselExampleIndicators'
+            data-slide-to='0'
+            className='active'
+          ></li>
+          <li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
+          <li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
+        </ol>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <img
+              className='d-block w-100'
               src={require('../img/wedd_1.jpg')}
-              alt='Indian Wedding pics'
-              width='1100'
-              height='500'
+              alt='First slide'
             />
-            <div className='carousel-caption'>
-              <NavLink to='#'>
-                <h1>Los Angeles</h1>
-                <p>We had such a great time in LA!</p>
-              </NavLink>
+            <div className='carousel-caption d-none d-md-block'>
+              <h2>Tarun Weds Saumya</h2>
+              <p>..........</p>
             </div>
           </div>
           <div className='carousel-item'>
             <img
-              src={require('../img/wedd_3.jpg')}
-              alt='Indian Wedding pics'
-              width='1100'
-              height='500'
-            />
-            <div className='carousel-caption'>
-              <NavLink to='#'>
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-              </NavLink>
-            </div>
-          </div>
-          <div className='carousel-item'>
-            <img
+              className='d-block w-100'
               src={require('../img/wedd_2.jpg')}
-              alt='Indian Wedding pics'
-              width='1100'
-              height='500'
+              alt='Second slide'
             />
-            <div className='carousel-caption'>
-              <NavLink to='#'>
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
-              </NavLink>
+            <div className='carousel-caption d-none d-md-block'>
+              <h2>Alakh Weds Pooja</h2>
+              <p>...........</p>
+            </div>
+          </div>
+          <div className='carousel-item'>
+            <img
+              className='d-block w-100'
+              src={require('../img/wedd_3.jpg')}
+              alt='Third slide'
+            />
+            <div className='carousel-caption d-none d-md-block'>
+              <h2>Jansan Ye Single hi marega</h2>
+              <p>.........</p>
             </div>
           </div>
         </div>
-        <a className='carousel-control-prev' href='#demo' data-slide='prev'>
-          <span className='carousel-control-prev-icon'></span>
+        <a
+          className='carousel-control-prev'
+          href='#carouselExampleIndicators'
+          role='button'
+          data-slide='prev'
+        >
+          <span
+            className='carousel-control-prev-icon'
+            aria-hidden='true'
+          ></span>
+          <span className='sr-only'>Previous</span>
         </a>
-        <a className='carousel-control-next' href='#demo' data-slide='next'>
-          <span className='carousel-control-next-icon'></span>
+        <a
+          className='carousel-control-next'
+          href='#carouselExampleIndicators'
+          role='button'
+          data-slide='next'
+        >
+          <span
+            className='carousel-control-next-icon'
+            aria-hidden='true'
+          ></span>
+          <span className='sr-only'>Next</span>
         </a>
       </div>
     </>

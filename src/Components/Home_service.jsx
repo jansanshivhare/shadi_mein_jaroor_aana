@@ -7,13 +7,18 @@ const HomeService = () => {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <h3 className='text-center'>Our Services</h3>
+            <h3 className='text-center my-5'>Our Services</h3>
+            <hr />
           </div>
         </div>
         <div className='row py-3'>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Birthday</h5>
                 <p className='card-text'>
@@ -26,9 +31,13 @@ const HomeService = () => {
               </div>
             </div>
           </div>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Marry</h5>
                 <p className='card-text'>
@@ -41,9 +50,13 @@ const HomeService = () => {
               </div>
             </div>
           </div>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Art</h5>
                 <p className='card-text'>
@@ -56,9 +69,13 @@ const HomeService = () => {
               </div>
             </div>
           </div>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Pappu</h5>
                 <p className='card-text'>
@@ -71,9 +88,13 @@ const HomeService = () => {
               </div>
             </div>
           </div>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Jansan</h5>
                 <p className='card-text'>
@@ -86,9 +107,13 @@ const HomeService = () => {
               </div>
             </div>
           </div>
-          <div className='col-4 py-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 py-3'>
             <div className='card' style={{ width: '18rem' }}>
-              <img src='...' className='card-img-top' alt='...' />
+              <img
+                src={require('../img/sample.jpeg')}
+                className='card-img-top'
+                alt='...'
+              />
               <div className='card-body'>
                 <h5 className='card-title'>Mera Naam</h5>
                 <p className='card-text'>
@@ -102,13 +127,10 @@ const HomeService = () => {
             </div>
           </div>
         </div>
-        <div className='row'>
-          <div className='col '>
-            <NavLink to='/service' className='btn btn-primary '>
-              View More
-            </NavLink>
-          </div>
-        </div>
+
+        <NavLink to='/service' className='btn btn-primary view-more'>
+          View More
+        </NavLink>
       </div>
     </>
   );
