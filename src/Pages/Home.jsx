@@ -5,7 +5,7 @@ import HomeImageSlider from '../Components/Home_Image_slider';
 const Home = () => {
   return (
     <>
-      <div className='home_slider my-4'>
+      <div className='home_slider'>
         <HomeImageSlider />
       </div>
       <div className='container'>

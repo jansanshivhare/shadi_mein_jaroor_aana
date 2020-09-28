@@ -127,8 +127,9 @@ const HomeService = () => {
             </div>
           </div>
         </div>
-
-        <NavLink to='/service' className='btn btn-primary view-more'>
+      </div>
+      <div className='text-center'>
+        <NavLink to='/service' className='btn btn-primary '>
           View More
         </NavLink>
       </div>

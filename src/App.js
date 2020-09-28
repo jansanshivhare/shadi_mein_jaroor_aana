@@ -10,11 +10,13 @@ import Error404 from './Pages/Error404';
 import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Footer from './Components/Footer';
+import SubNav from './Components/subnav';
 
 function App() {
   return (
     <>
       <Navbar />
+      <SubNav className='m-0' />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />

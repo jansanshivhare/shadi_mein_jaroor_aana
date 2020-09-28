@@ -6,7 +6,7 @@ const HomeImageSlider = () => {
     <>
       <div
         id='carouselExampleIndicators'
-        className='carousel slide w-75 mx-auto'
+        className='HomeImageSlider carousel slide w-75 mx-auto'
         data-ride='carousel'
       >
         <ol className='carousel-indicators'>

@@ -47,3 +47,58 @@
 /* .container{
     border: 8px solid black;
 } */
+
+/* sub nav css */
+#subNavHolder {
+  background-color: #ccb647;
+}
+
+.dropdown {
+  list-style: none !important;
+}
+
+.dropdown span {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: None;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 5px;
+  border-top: 1px solid;
+  margin: none;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown a:hover {
+  text-decoration: none !important;
+}
+
+.dropdown span:hover {
+  color: yellow;
+  text-decoration: none !important;
+}
