@@ -15,17 +15,22 @@ import SubNav from './Components/subnav';
 function App() {
   return (
     <>
-      <Navbar />
-      <SubNav className='m-0' />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/contact' component={Contact} />
-        <Route exact path='/service' component={Service} />
-        <Route exact path='/error404' component={Error404} />
-        <Redirect to='/Error404' />
-      </Switch>
-      <Footer />
+      <div className='top_side'>
+        <Navbar />
+        <SubNav />
+      </div>
+      <div className='main_pages'>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/service' component={Service} />
+          <Route exact path='/error404' component={Error404} />
+          <Redirect to='/Error404' />
+        </Switch>
+
+        <Footer />
+      </div>
     </>
   );
 }

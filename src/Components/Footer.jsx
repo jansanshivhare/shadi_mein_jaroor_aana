@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-      <footer className='footer my-5'>
+      <footer className='footer'>
         <div className='container w-75'>
           <div className='footer__option '>
             <div className='row'>
               <div className='col-12'>
                 <div className='footer__option__item'>
-                  <h4 className='mx-auto text-center'>About us</h4>
+                  <h4 className='mx-auto text-center mt-5'>About us</h4>
                   <hr />
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,17 +94,77 @@ const Footer = () => {
               </div>{' '}
             </div>
           </div>{' '}
+          <div>
+            <h4 className='text-center mt-3'>Follow us on Social Media</h4>
+            <hr />
+            <div className='row text-center'>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-facebook text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-twitter text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-google text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-linkedin text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-youtube text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-instagram text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-pinterest text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-snapchat-ghost text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-skype text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-android text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-yahoo text-white'
+              ></NavLink>
+              <NavLink
+                to='#'
+                class=' m-auto w-100 h-100 col-lg-1 col-md-2 col-sm-2 col-3 fa fa-reddit text-white'
+              ></NavLink>
+              {/* <NavLink to='#' class='fa fa-dribbble text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-vimeo text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-tumblr text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-vine text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-foursquare text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-stumbleupon text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-flickr text-white'></NavLink> */}
+              {/* <NavLink to='#' class='fa fa-rss text-white'></NavLink> */}
+            </div>
+          </div>
           <div className='footer__copyright'>
-            <div className='row'>
-              <div className='col-lg-12 text-center'>
-                <p className='footer__copyright__text'>
-                  Copyright &copy; All rights reserved | This template is made
-                  with <i aria-hidden='true'></i> by{' '}
-                  <NavLink to='' target='_blank'>
-                    Brand
-                  </NavLink>
-                </p>
-              </div>
+            <div className='text-center mt-4'>
+              <p className='footer__copyright__text mb-0 pb-3'>
+                Copyright &copy; All rights reserved | This template is made
+                with <i aria-hidden='true'>passion</i> by{' '}
+                <NavLink to='' target='_blank'>
+                  shadi mein jaroor aana
+                </NavLink>
+              </p>
             </div>
           </div>
         </div>
