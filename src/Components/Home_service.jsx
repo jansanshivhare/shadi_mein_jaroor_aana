@@ -5,21 +5,17 @@ const HomeService = () => {
   return (
     <>
       <div className='container-fluid homeservice'>
-        <div className='row '>
-          <div className='col'>
-            <h3 className='text-center my-5'>Our Services</h3>
-            <hr />
-          </div>
-        </div>
+        <h3 className='text-center my-5'>Our Services</h3>
+        <hr />
         <div className='row'>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back2.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />
@@ -39,12 +35,12 @@ const HomeService = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back3.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />
@@ -64,12 +60,12 @@ const HomeService = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back4.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />
@@ -89,12 +85,12 @@ const HomeService = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back5.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />
@@ -114,12 +110,12 @@ const HomeService = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back6.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />
@@ -139,12 +135,12 @@ const HomeService = () => {
           </div>
           <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
             <div
-              className='card center-block mx-auto'
+              className='card center-block mx-auto border border-danger'
               style={{ width: '18rem' }}
             >
               <img
                 src={require('../img/back.jpg')}
-                className=' w-100 card-img-top'
+                className=' w-100 card-img-top img-fluid'
                 style={{ height: 200 }}
                 alt='...'
               />

@@ -109,6 +109,26 @@
   background-image: url('./img/back2.jpg');
 }
 
+/* contact us page css */
+.contact-us {
+  background-image: url('./img/bg_img/contactbg.jpg');
+}
+
+.contact-us h5 {
+  color: #ffbf00;
+}
+
+.contact-us input[type='text'] {
+  background-color: #ffbf00bd;
+}
+
+.contact-us textarea {
+  background-color: #ffbf00bd;
+}
+
+.btnContact {
+  background-color: #ffbf00;
+}
 /* logo colouring */
 .fa {
   border-radius: 50%;
