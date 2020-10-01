@@ -10,7 +10,7 @@ import Error404 from './Pages/Error404';
 import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Footer from './Components/Footer';
-import SubNav from './Components/subnav';
+import SubNav from './Components/Subnav';
 
 function App() {
   return (

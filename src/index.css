@@ -227,3 +227,18 @@
 .fa-rss {
   background: #ff6600;
 }
+
+/* footer ka kamaal*/
+.footer__option__item li {
+  color: red;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.footer__option__item a:hover {
+  text-decoration: none;
+}
+
+.footer__option__item span:hover {
+  color: green !important;
+}

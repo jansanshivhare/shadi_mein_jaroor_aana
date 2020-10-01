@@ -1,6 +1,7 @@
 import React from 'react';
-import HomeService from '../Components/Home_service';
+// import HomeService from '../Components/Home_service';
 import HomeImageSlider from '../Components/Home_Image_slider';
+import HomeService from '../Components/Home_service';
 
 const Home = () => {
   return (

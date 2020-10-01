@@ -57,7 +57,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className='form-group text-center p-5'>
+          <div className='form-group text-center p-3'>
             <input
               type='submit'
               name='btnSubmit'

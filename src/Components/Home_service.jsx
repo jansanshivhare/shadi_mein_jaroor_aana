@@ -8,10 +8,10 @@ const HomeService = () => {
         <h3 className='text-center my-5'>Our Services</h3>
         <hr />
         <div className='row'>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back2.jpg')}
@@ -25,18 +25,18 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back3.jpg')}
@@ -50,18 +50,18 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back4.jpg')}
@@ -75,18 +75,18 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back5.jpg')}
@@ -100,18 +100,18 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back6.jpg')}
@@ -125,18 +125,18 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-md-6 col-sm-12 my-3'>
+          <div className='col-lg-4 col-md-6 col-sm-12 col-12 my-3'>
             <div
               className='card center-block mx-auto border border-danger'
-              style={{ width: '18rem' }}
+              // style={{ width: 290 }}
             >
               <img
                 src={require('../img/back.jpg')}
@@ -150,11 +150,11 @@ const HomeService = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <div className='text-center'>
+                {/* <div className='text-center'>
                   <NavLink to='#' className='btn btn-primary'>
                     Go somewhere
                   </NavLink>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
