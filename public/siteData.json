@@ -1,0 +1,61 @@
+{
+    "main":{
+        "name":"",
+    "contactmessage":"",
+    "email": "",
+    "phone": "",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "" 
+},
+    "service":{
+        "work":[
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        },
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        },
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        },
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        },
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        },
+        {
+            "name": "",
+            "img":"",
+            "description": "",
+            "button": "",
+            "alt":""
+        }
+        ]
+    }
+}

@@ -26,7 +26,7 @@ const HomeImageSlider = () => {
               alt='First slide'
             />
             <div className='carousel-caption d-none d-md-block'>
-              <h2>Tarun Weds Saumya</h2>
+              <h2>XYZ Weds ABC</h2>
               <p>..........</p>
             </div>
           </div>

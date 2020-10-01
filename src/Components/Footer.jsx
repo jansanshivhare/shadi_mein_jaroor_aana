@@ -8,11 +8,11 @@ const Footer = () => {
         <div className='container w-75'>
           <div className='footer__option '>
             <div className='row'>
-              <div className='col-12'>
+              <div className='col-4'>
                 <div className='footer__option__item'>
-                  <h4 className='mx-auto text-center'>About us</h4>
                   <hr />
-                  <p>
+                  <h4 className='mx-auto text-left'>About us</h4>
+                  <p clasName="text-wrap">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Accusamus consequatur rem illo quis numquam, minima eos quam
                     eum expedita? Reprehenderit quibusdam perferendis
@@ -42,7 +42,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className='col-4 text-center'>
+              {/* <div className='col-4 text-center'>
                 <div className='footer__option__item'>
                   <h5>Our work</h5>
                   <ul>
@@ -60,8 +60,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className='col-4 text-center'>
+              </div> */}
+              <div className='col-4 text-right'>
                 <div className='footer__top__social'>
                   <h5>Follow Us</h5>
                   <ul>
