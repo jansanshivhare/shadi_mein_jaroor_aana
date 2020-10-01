@@ -6,8 +6,8 @@ const SubNav = () => {
     <>
       <div id='subNavHolder' className='color1'>
         <div>
-          <ul className='row container-fluid'>
-            <li className='dropdown col-lg-1 col-md-1 col-sm-1 col-12 m-auto'>
+          <ul className='row container-fluid my-0'>
+            <li className='dropdown col-lg-1 col-md-1 col-sm-1 col-12 m-auto '>
               <NavLink to='#'>
                 <span>
                   <img
@@ -18,16 +18,18 @@ const SubNav = () => {
                   />
                 </span>
               </NavLink>
-              {/* <ul className="dropdown-content">
-        <li><NavLink to="#">Experience Camlin</NavLink></li>
-        </ul> */}
+              {/* <ul className='dropdown-content'>
+                <li>
+                  <NavLink to='#'>Experience Camlin</NavLink>
+                </li>
+              </ul> */}
             </li>
 
             <div className='col-lg-11 col-md-11 col-sm-11 col-12 row'>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 {' '}
                 <NavLink to='#'>
-                  <span>ACTIVITIES</span>
+                  <span>Wedding Plan</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
@@ -50,9 +52,9 @@ const SubNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 <NavLink to='#'>
-                  <span>STUDENTS</span>
+                  <span>Art Contract</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
@@ -66,9 +68,9 @@ const SubNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 <NavLink to='#'>
-                  <span>ART &amp; Craft</span>
+                  <span>Art Events</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
@@ -85,9 +87,9 @@ const SubNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 <NavLink to='#'>
-                  <span>PROFESSIONALS</span>
+                  <span>Architecture</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
@@ -98,9 +100,9 @@ const SubNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 <NavLink to='#'>
-                  <span>HOBBYISTS</span>
+                  <span>Ocassions</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
@@ -111,10 +113,10 @@ const SubNav = () => {
                   </li>
                 </ul>
               </li>
-              <li className='dropdown col-lg-2 col-md-4 col-sm-4 col-12'>
+              <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
                 {' '}
                 <NavLink to='#'>
-                  <span>Know more</span>
+                  <span>Gifts-Zone</span>
                 </NavLink>
                 <ul className='dropdown-content'>
                   <li>
