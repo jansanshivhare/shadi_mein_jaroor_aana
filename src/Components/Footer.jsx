@@ -8,10 +8,10 @@ const Footer = () => {
         <div className='container w-75'>
           <div className='footer__option '>
             <div className='row mt-5 mx-auto text-center'>
-              <div className='col-lg-4 col-md-12 footer__option__item'>
+              <div className='col-lg-6 col-md-12 footer__option__item'>
                 <h5>ABOUT US</h5>
                 <hr />
-                <p>
+                <p className='text-left'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus consequatur rem illo quis numquam, minima eos quam
                   eum expedita? Reprehenderit quibusdam perferendis repudiandae
@@ -21,7 +21,7 @@ const Footer = () => {
                   </NavLink>
                 </p>
               </div>
-              <div className='col-lg-4 col-md-6 col-6 footer__option__item'>
+              <div className='col-lg-3 col-md-6 col-6 footer__option__item'>
                 <h5>WHO WE ARE</h5>
                 <hr />
                 <ul>
@@ -47,7 +47,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className='col-lg-4 col-md-6 col-6 footer__option__item'>
+              <div className='col-lg-3 col-md-6 col-6 footer__option__item'>
                 <h5>OUR WORK</h5>
                 <hr />
                 <ul>
