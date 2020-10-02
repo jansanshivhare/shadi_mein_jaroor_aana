@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shadi_mein_jaroor_aana/static/css/main.e3c11957.chunk.css",
-    "main.js": "/shadi_mein_jaroor_aana/static/js/main.bb458474.chunk.js",
-    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.bb458474.chunk.js.map",
+    "main.css": "/shadi_mein_jaroor_aana/static/css/main.5c15a924.chunk.css",
+    "main.js": "/shadi_mein_jaroor_aana/static/js/main.7494ff36.chunk.js",
+    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.7494ff36.chunk.js.map",
     "runtime-main.js": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js",
     "runtime-main.js.map": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js",
     "static/js/2.61c72068.chunk.js.map": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.map",
     "index.html": "/shadi_mein_jaroor_aana/index.html",
-    "precache-manifest.907bb437eea7ca59e584bedb9816e917.js": "/shadi_mein_jaroor_aana/precache-manifest.907bb437eea7ca59e584bedb9816e917.js",
+    "precache-manifest.e63cf152db7641332543cb6c667b6896.js": "/shadi_mein_jaroor_aana/precache-manifest.e63cf152db7641332543cb6c667b6896.js",
     "service-worker.js": "/shadi_mein_jaroor_aana/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.e3c11957.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/main.e3c11957.chunk.css.map",
+    "static/css/main.5c15a924.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/main.5c15a924.chunk.css.map",
     "static/js/2.61c72068.chunk.js.LICENSE.txt": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.LICENSE.txt",
     "static/media/index.css": "/shadi_mein_jaroor_aana/static/media/contactbg.63a7c3cb.jpg",
     "static/media/wedd_1.jpg": "/shadi_mein_jaroor_aana/static/media/wedd_1.8c1bb5c6.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.64775899.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js",
-    "static/css/main.e3c11957.chunk.css",
-    "static/js/main.bb458474.chunk.js"
+    "static/css/main.5c15a924.chunk.css",
+    "static/js/main.7494ff36.chunk.js"
   ]
 }
