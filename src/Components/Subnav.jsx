@@ -5,7 +5,7 @@ const SubNav = () => {
   return (
     <>
       <div id='subNavHolder' className='color1'>
-        <div>
+        <div className="container">
           <ul className='row container-fluid my-0'>
             <li className='dropdown col-lg-1 col-md-1 col-sm-1 col-12 m-auto '>
               <NavLink to='#'>
