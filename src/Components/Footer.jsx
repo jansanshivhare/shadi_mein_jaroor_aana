@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <>
       <footer className='footer'>
-        <div className='container-fluid'>
+        <hr />
+        <div className='w-100'>
           <div className='footer__option '>
             <div className='row mt-5 mx-auto text-center'>
               <div className='col-lg-4 col-md-6 col-12 footer__option__item'>

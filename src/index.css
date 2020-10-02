@@ -171,9 +171,12 @@
   min-height: 360px;
   max-width: 300px;
   height: auto;
-  border-radius: 10px;
+  /* border-radius: 50%; */
+  /* border-radius: 10px; */
   color: #fff;
   font-size: auto;
+  border: 2px red;
+  border-radius: 4em 1em 4em / 0.5em 3em;
 }
 
 .home_service_front:after {
@@ -232,4 +235,55 @@
   transform: rotateY(-180deg);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+/*services page css*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+.services_page body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.services_page h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+
+.services_page p {
+  margin: 0 60px;
+  font-weight: 300;
+}
+
+.services_page .overlay {
+  width: 100%;
+  height: 100%;
+  color: red;
+}
+
+.services_page section {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.services_page .img {
+  padding: 0;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+.services_page .img:first-child {
+  height: 500px;
+  min-height: inherit;
+  background-attachment: inherit;
+  background-position: center;
+  background-size: cover;
 }
