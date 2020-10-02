@@ -1,7 +1,7 @@
 import React from 'react';
 // import HomeService from '../Components/Home_service';
 import HomeImageSlider from '../Components/Home_Image_slider';
-import HomeService from '../Components/Home_service';
+import HomeService from '../Components/Service';
 
 const Home = () => {
   return (
@@ -11,11 +11,7 @@ const Home = () => {
           <HomeImageSlider />
         </div>
         <div className='container'>
-          <div className='row'>
-            <div className='col-10 mx-auto '>
-              <HomeService />
-            </div>
-          </div>
+          <HomeService />
         </div>
       </div>
       <div className='my-5 text-center'>

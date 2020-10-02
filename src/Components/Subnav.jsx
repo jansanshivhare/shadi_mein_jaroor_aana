@@ -27,7 +27,6 @@ const SubNav = () => {
 
             <div className='col-lg-11 col-md-11 col-sm-11 col-12 row'>
               <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
-                {' '}
                 <NavLink to='#'>
                   <span>Wedding Plan</span>
                 </NavLink>
@@ -114,7 +113,6 @@ const SubNav = () => {
                 </ul>
               </li>
               <li className='dropdown col-lg-2 col-md-4 col-sm-6 col-12'>
-                {' '}
                 <NavLink to='#'>
                   <span>Gifts-Zone</span>
                 </NavLink>
