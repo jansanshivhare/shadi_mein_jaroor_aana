@@ -17,7 +17,9 @@ function App() {
     <>
       <div className='top_side'>
         <Navbar />
+        <hr />
         <SubNav />
+        <hr />
       </div>
       <div className='main_pages'>
         <Switch>
