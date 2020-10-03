@@ -16,7 +16,7 @@ const Service = () => {
               <h1>SERVICES</h1>
             </div>
           </section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Obcaecati beatae perferendis deserunt dolores molestiae hic
@@ -40,7 +40,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=1)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
               error ipsam voluptatibus qui nisi laboriosam culpa, voluptas
@@ -65,7 +65,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=2)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
               beatae odio minus quo perspiciatis debitis, sapiente ipsam
@@ -90,7 +90,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=3)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
               alias error adipisci at ipsum, voluptate totam a! Expedita ipsum
@@ -114,7 +114,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=4)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet
               totam in incidunt fugit recusandae distinctio et ad fugiat labore
@@ -139,7 +139,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=5)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet
               totam in incidunt fugit recusandae distinctio et ad fugiat labore
@@ -164,7 +164,7 @@ const Service = () => {
               backgroundImage: 'url(https://unsplash.it/1920/1080?random=6)',
             }}
           ></section>
-          <section>
+          <section className='service_para'>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet
               totam in incidunt fugit recusandae distinctio et ad fugiat labore

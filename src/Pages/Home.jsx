@@ -14,28 +14,17 @@ const Home = () => {
           <HomeService />
         </div>
       </div>
-      <div className='my-5 text-center'>
+      {/* <div className=' container-fluid h-full my-5 mx-auto text-center'> */}
+      <div className='w-100 my-5 iframe-container'>
         <iframe
-          className='p-2 text-center'
           title='maroon_sugar'
-          width='45%'
-          height='360px'
           src='https://www.youtube.com/embed/09R8_2nJtjg?start=80'
           frameborder='0'
           allow='accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
           allowfullscreen
         ></iframe>
-        <iframe
-          className='p-2 text-center'
-          title='cool_meditation_music'
-          width='45%'
-          height='360px'
-          src='https://www.youtube.com/embed/lCOF9LN_Zxs'
-          frameborder='0'
-          allow='accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
-        ></iframe>
       </div>
+      {/* </div> */}
     </>
   );
 };
