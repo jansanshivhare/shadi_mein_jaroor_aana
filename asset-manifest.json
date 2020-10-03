@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/shadi_mein_jaroor_aana/static/css/main.99234f3f.chunk.css",
-    "main.js": "/shadi_mein_jaroor_aana/static/js/main.431eb3ea.chunk.js",
-    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.431eb3ea.chunk.js.map",
+    "main.css": "/shadi_mein_jaroor_aana/static/css/main.2762a3be.chunk.css",
+    "main.js": "/shadi_mein_jaroor_aana/static/js/main.85a8b659.chunk.js",
+    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.85a8b659.chunk.js.map",
     "runtime-main.js": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js",
     "runtime-main.js.map": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js",
     "static/js/2.61c72068.chunk.js.map": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.map",
     "index.html": "/shadi_mein_jaroor_aana/index.html",
-    "precache-manifest.3a7e991f0f337abb8cac82c98cdb4612.js": "/shadi_mein_jaroor_aana/precache-manifest.3a7e991f0f337abb8cac82c98cdb4612.js",
+    "precache-manifest.d73327328c42ddea7dd53f1cc963dd8b.js": "/shadi_mein_jaroor_aana/precache-manifest.d73327328c42ddea7dd53f1cc963dd8b.js",
     "service-worker.js": "/shadi_mein_jaroor_aana/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.99234f3f.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/main.99234f3f.chunk.css.map",
+    "static/css/main.2762a3be.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/main.2762a3be.chunk.css.map",
     "static/js/2.61c72068.chunk.js.LICENSE.txt": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/shadi_mein_jaroor_aana/static/media/contactbg.63a7c3cb.jpg",
+    "static/media/index.css": "/shadi_mein_jaroor_aana/static/media/back4.deb5a990.jpg",
     "static/media/wedd_1.jpg": "/shadi_mein_jaroor_aana/static/media/wedd_1.8c1bb5c6.jpg",
     "static/media/wedd_2.jpg": "/shadi_mein_jaroor_aana/static/media/wedd_2.b8a8fe56.jpg",
     "static/media/wedd_3.jpg": "/shadi_mein_jaroor_aana/static/media/wedd_3.f30f7e27.jpg"
@@ -23,7 +23,7 @@
     "static/js/runtime-main.64775899.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js",
-    "static/css/main.99234f3f.chunk.css",
-    "static/js/main.431eb3ea.chunk.js"
+    "static/css/main.2762a3be.chunk.css",
+    "static/js/main.85a8b659.chunk.js"
   ]
 }
