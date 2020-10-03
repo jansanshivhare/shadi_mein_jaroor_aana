@@ -9,6 +9,11 @@
   font-family: 'Muli', sans-serif;
 }
 
+* h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .navbar {
   background-color: transparent !important;
 }
