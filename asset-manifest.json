@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shadi_mein_jaroor_aana/static/css/main.2762a3be.chunk.css",
-    "main.js": "/shadi_mein_jaroor_aana/static/js/main.85a8b659.chunk.js",
-    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.85a8b659.chunk.js.map",
+    "main.js": "/shadi_mein_jaroor_aana/static/js/main.7cc6967b.chunk.js",
+    "main.js.map": "/shadi_mein_jaroor_aana/static/js/main.7cc6967b.chunk.js.map",
     "runtime-main.js": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js",
     "runtime-main.js.map": "/shadi_mein_jaroor_aana/static/js/runtime-main.64775899.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js",
     "static/js/2.61c72068.chunk.js.map": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.map",
     "index.html": "/shadi_mein_jaroor_aana/index.html",
-    "precache-manifest.d73327328c42ddea7dd53f1cc963dd8b.js": "/shadi_mein_jaroor_aana/precache-manifest.d73327328c42ddea7dd53f1cc963dd8b.js",
+    "precache-manifest.d9c9bc6c32493c8de30de65694b0df3d.js": "/shadi_mein_jaroor_aana/precache-manifest.d9c9bc6c32493c8de30de65694b0df3d.js",
     "service-worker.js": "/shadi_mein_jaroor_aana/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2762a3be.chunk.css.map": "/shadi_mein_jaroor_aana/static/css/main.2762a3be.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.61c72068.chunk.js",
     "static/css/main.2762a3be.chunk.css",
-    "static/js/main.85a8b659.chunk.js"
+    "static/js/main.7cc6967b.chunk.js"
   ]
 }

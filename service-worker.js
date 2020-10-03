@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shadi_mein_jaroor_aana/precache-manifest.d73327328c42ddea7dd53f1cc963dd8b.js"
+  "/shadi_mein_jaroor_aana/precache-manifest.d9c9bc6c32493c8de30de65694b0df3d.js"
 );
 
 self.addEventListener('message', (event) => {

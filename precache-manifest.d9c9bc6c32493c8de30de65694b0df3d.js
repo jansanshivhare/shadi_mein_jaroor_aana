@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5aa94d5be6adf577b2dbb01ba129f88",
+    "revision": "5639e75195fb8d4a90c0c58f0e80c253",
     "url": "/shadi_mein_jaroor_aana/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shadi_mein_jaroor_aana/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "d4e5b462e9c9e1e4cbcf",
+    "revision": "9757e481a26709fbcdfb",
     "url": "/shadi_mein_jaroor_aana/static/css/main.2762a3be.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shadi_mein_jaroor_aana/static/js/2.61c72068.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4e5b462e9c9e1e4cbcf",
-    "url": "/shadi_mein_jaroor_aana/static/js/main.85a8b659.chunk.js"
+    "revision": "9757e481a26709fbcdfb",
+    "url": "/shadi_mein_jaroor_aana/static/js/main.7cc6967b.chunk.js"
   },
   {
     "revision": "719df30da67684c31e5a",
