@@ -5,19 +5,13 @@ const Contact = () => {
   return (
     <>
       <div className='pt-2'>
-        <div className='contact-us container-fluid contact-form border border-danger rounded-lg'>
+        <div className='contact-us container-fluid contact-form'>
           <div className='w-75 mx-auto'>
             <form method='post'>
-              <h1 className='text-center text-warning p-5'>
-                We'd love to hear from you
-              </h1>
-              {/* <h5 className='text-center p-5 mx-auto w-50'>
-            We're here to help and answer any question you might have. We look
-            forward to hearing from you.
-          </h5> */}
+              <h1 className='text-center p-5'>We'd love to hear from you</h1>
 
-              <div className='row'>
-                <div className='col-md-6'>
+              <div className='row w-75 mx-auto'>
+                <div className='col-12'>
                   <div className='form-group'>
                     <input
                       type='text'
@@ -46,7 +40,7 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-12'>
                   <div className='form-group'>
                     <textarea
                       name='txtMsg'
@@ -57,7 +51,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className='form-group text-right p-5'>
+              <div className='w-75 mx-auto form-group text-right p-5'>
                 <input
                   type='submit'
                   name='btnSubmit'
